@@ -4,19 +4,19 @@
 * Creamos una carpeta "MiPrimerProyectoGit"
 * Iniciamos el trabajo con la carpeta creada utilizando el comando git init
 * Añadimos ficheros de texto y dos ficheros tipo .html al repositorio. 
-** hola.txt
-** git.txt
-** index.html
-** nosotros.html
+* hola.txt
+* git.txt
+* index.html
+* nosotros.html
 
 * Guardamos los cambios hechos en los archivos de la carpeta local con el comando __git add .__
 
 * Realizamos el primer commit con el comando -__git commit -m "my first commit"__
 * Realizamos cambios en dos archivos y hacemos el nuevo commit
 * Para subir el proyecto en GiHub utilizamos los comandos:
-** __git remote add https://github.com/Annaingalicia/holagit.git__
-** __git branch -M main__
-** __git push -u origin main__
+* __git remote add https://github.com/Annaingalicia/holagit.git__
+* __git branch -M main__
+* __git push -u origin main__
 
 # Comandos aprendidos realizando los ejercisios en clase:
 
