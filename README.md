@@ -9,7 +9,7 @@
 ** index.html
 ** nosotros.html
 
-*Guardamos los cambios hechos en los archivos de la carpeta local con el comando __git add .__
+* Guardamos los cambios hechos en los archivos de la carpeta local con el comando __git add .__
 
 * Realizamos el primer commit con el comando -__git commit -m "my first commit"__
 * Realizamos cambios en dos archivos y hacemos el nuevo commit
