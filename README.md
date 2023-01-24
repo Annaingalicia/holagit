@@ -39,3 +39,14 @@
 * __git diff bd7f788(número de la primera versión puede ser diferente)..HEAD__ - muestra las diferencias entre la primera y la última versión del repositorio.
 
 * __git annotate(ruta del archivo)__ - muestra quién ha hecho cambios sobre un archivo
+
+# Laboratorio 3
+## Comandos aprendidos
+
+* _git reset --soft HEAD~__ - Deshace el último commit pero mantiene los cambios anteriores en el directorio de trabajo y la zona de intercambio temporal.
+* _git reset --mixed__ - deshace todos los cambios entre HEAD y último commit, pero conservará los cambios en el directorio de trabajo (va a volver al estado unstaged)
+* _git reset --hard HEAD~__ - Deshace el último commit y los cambios anteriores del directorio de trabajo volviendo a la versión anterior del repositorio.
+* _git clean -f_ - Deshace los cambios realizados para volver a la versión del repositorio.
+* _git restore --staged_ - Deshace cambios del estado Index(stage)
+* _git restore_ - Elimina los cambios en el directorio de trabajo
+- _git checkout_- si previamente modificamos un archivo, pero no queremos guardar los cambios, ese comando devolvera el archivo en el estado previo a los cambios. Hay que tener cuidado con ese comando, ya que no va a ser posible a recuperar los cambios.
