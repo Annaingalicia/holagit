@@ -50,3 +50,13 @@
 * _git restore --staged_ - Deshace cambios del estado Index(stage)
 * _git restore_ - Elimina los cambios en el directorio de trabajo
 - _git checkout_- si previamente modificamos un archivo, pero no queremos guardar los cambios, ese comando devolvera el archivo en el estado previo a los cambios. Hay que tener cuidado con ese comando, ya que no va a ser posible a recuperar los cambios.
+
+# Laboratorio 4
+## Gestión de ramas
+
+1. *git branch* - crea una nueva rama
+2. *git branch -av* - muestra las ramas del repositorio
+3. *git checkout* - cambia a la rama que indiquemos
+4. *git merge* - fusiona la rama indicada
+5. *git commit -am* - Añade los cambios a la zona de intercambio temporal y hace un commit
+
