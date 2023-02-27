@@ -60,3 +60,10 @@
 4. *git merge* - fusiona la rama indicada
 5. *git commit -am* - Añade los cambios a la zona de intercambio temporal y hace un commit
 
+# Repositorios remotos
+
+1. *git remote add github url* - añade al repositorio local un repositorio ya creado en GitHub
+2. *git remote -v* - muestra todos los repositorios remotos configurados.
+3. *git push github master* - añade los cambios del repositorio local al repositorio remoto de GitHub.
+4. *git push origin master* - el comado para subir los cambios al repositorio remoto
+
